@@ -28,3 +28,21 @@ nav img{
 nav h4{
     display: inline-block;
 }
+
+
+.navbar_bassa{
+    margin-top: 90px;
+    border-bottom: 1px solid white;
+}
+
+.profile img{
+    width: 25px;
+    padding: 10px;
+    background-color: lightslategray;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.profile h4{
+    color: white;
+}
