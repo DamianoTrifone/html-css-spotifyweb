@@ -12,6 +12,22 @@ nav{
     flex-direction: column;
 }
 
+.menu_list{
+    list-style: none;
+    font-size: 15px;
+    line-height: 35px;
+}
+
+.menu_list a{
+    text-decoration: none;
+}
+
+
+.menu_list img{
+    height: 25px;
+    vertical-align: middle;
+}
+
 #logo{
     width: 150px;
     padding: 15px;
@@ -19,6 +35,19 @@ nav{
 
 .principali_sx{
     padding-top: 20px;
+}
+
+.principali_sx i{
+    color: black;
+    background-color: lightslategray;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.principali_sx a{
+    text-decoration: none;
+    margin-right: 15px;
+    border-radius: 0px;
 }
 
 nav img{
@@ -29,6 +58,10 @@ nav h4{
     display: inline-block;
 }
 
+.name_playlist a{
+    text-decoration: none;
+    line-height: 30px;
+}
 
 .navbar_bassa{
     margin-top: 90px;
@@ -41,6 +74,7 @@ nav h4{
     background-color: lightslategray;
     border-radius: 50%;
     margin-top: 10px;
+    vertical-align: middle;
 }
 
 .profile h4{
