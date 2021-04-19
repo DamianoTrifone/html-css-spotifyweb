@@ -10,6 +10,7 @@ nav{
     display: flex;
     width: 280px;
     flex-direction: column;
+    float: left;
 }
 
 .menu_list{
@@ -79,4 +80,23 @@ nav h4{
 
 .profile h4{
     color: white;
+}
+
+main{
+    background-color: #141922;
+    
+}
+
+.btn_alti{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn_alti a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 10px;
+    font-size: 15px;
 }
