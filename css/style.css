@@ -5,6 +5,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.wrapper{
+    height: 100vh;
+    overflow: hidden;
+}
+
 nav{
     background-color: #000000;
     display: flex;
@@ -98,5 +103,28 @@ main{
     text-decoration: none;
     text-transform: uppercase;
     padding: 20px 10px;
+    margin-top: 20px;
     font-size: 15px;
+}
+
+main h4{
+    color: white;
+    font-weight: bold;
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+.albums img{
+    width: 150px;
+    margin-left: 15px;
+    padding: 10px 5px;
+}
+
+.albums h5{
+    color: white;
+    font-size: 15px;
+}
+
+.albums{
+    display: inline-block;
 }
