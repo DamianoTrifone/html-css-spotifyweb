@@ -44,6 +44,28 @@ nav{
     vertical-align: middle;
 }
 
+.call-to-action{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100% - 230px);
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.call-to-action a{
+    position: relative;
+    top: 40px;
+    left: 800px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+
 #logo{
     width: 150px;
     padding: 15px;
