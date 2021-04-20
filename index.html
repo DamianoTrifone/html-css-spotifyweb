@@ -68,12 +68,11 @@
         
             <div class="navbar_bassa">
                 <span><i class="fas fa-arrow-circle-down"></i> Installa app</span>
-            </div>
-
-            <div class="profile">
-                <img src="img/profile.svg" alt="Profilo">
-                <h4>Damiano Trifone</h4>
-            </div>
+                <div class="profile">
+                  <img src="img/profile.svg" alt="Profilo">
+                  <h4>Damiano Trifone</h4>
+              </div>
+            </div>       
 
         </nav>
 
@@ -158,11 +157,17 @@
 
         <footer>
           <div class="footer_left">
-            <img src="img/sinister.jpeg" alt="Sinister cover">
-            <h5>Sinister</h5>
-            <span>Brano Nome</span>
-            <i id="heart" class="far fa-heart"></i>
-            <i id="folder" class="far fa-folder"></i>
+            <div class="img">
+              <img src="img/sinister.jpeg" alt="Sinister Cover">
+            </div>
+            <div class="text">
+              <span>Sinister</span>
+              <span class="small">Brano Nome</span>
+            </div>
+            <div class="icon">
+              <i class="far fa-heart"></i>
+              <i class="far fa-folder"></i>
+            </div>           
           </div>
 
           <div class="footer_center">
@@ -171,6 +176,11 @@
               <i class="fas fa-step-backward btn_player"></i>
               <i class="far fa-play-circle btn_player"></i>
               <i class="fas fa-step-forward btn_player"></i>
+            </div>
+
+            <div class="time">
+              <span>0:25</span>
+              <span id="timeline"></span>
             </div>
           </div>
 

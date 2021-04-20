@@ -13,10 +13,19 @@
 
 nav{
     background-color: #000000;
-    display: flex;
     width: 230px;
-    flex-direction: column;
     float: left;
+    height: calc(100% - 90px);
+}
+
+.btn_alti,
+.album{
+    height: calc(100% - 80px)
+}
+
+.navbar_bassa{
+    height: 150px;
+    background-color: #000000;
 }
 
 .menu_list{
@@ -162,18 +171,21 @@ footer{
 
 .footer_left{
     width: 230px;
-    position: fixed;
-    position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .footer_left img{
     width: 50px;
-    position: absolute;
-    top: 25px;
-    left: 25px;
+    margin-left: 20px;
+    margin-top: 15px;
 }
 
-.footer_left h5{
+.icon i{
+    display: inline;
+}
+
+/* .footer_left h5{
     position: absolute;
     top: 35px;
     left: 80px;
@@ -185,19 +197,8 @@ footer{
     top: 50px;
     left: 79px;
     font-size: 12px;
-}
+} */
 
-#heart{
-    position: absolute;
-    top: 45px;
-    left: 170px;
-}
-
-#folder{
-    position: absolute;
-    top: 45px;
-    left: 200px;
-}
 
 .footer_center{
     width: calc(100% - 230px);
