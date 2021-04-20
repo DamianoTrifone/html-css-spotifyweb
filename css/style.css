@@ -198,3 +198,8 @@ footer{
     top: 45px;
     left: 200px;
 }
+
+.footer_center{
+    width: calc(100% - 230px);
+    text-align: center;
+}
