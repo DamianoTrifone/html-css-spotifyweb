@@ -162,6 +162,7 @@ footer{
 
 .footer_left{
     width: 230px;
+    position: fixed;
     position: relative;
 }
 
@@ -170,4 +171,30 @@ footer{
     position: absolute;
     top: 25px;
     left: 25px;
+}
+
+.footer_left h5{
+    position: absolute;
+    top: 35px;
+    left: 80px;
+    color: white;
+}
+
+.footer_left span{
+    position: absolute;
+    top: 50px;
+    left: 79px;
+    font-size: 12px;
+}
+
+#heart{
+    position: absolute;
+    top: 45px;
+    left: 170px;
+}
+
+#folder{
+    position: absolute;
+    top: 45px;
+    left: 200px;
 }
