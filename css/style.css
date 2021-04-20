@@ -159,3 +159,15 @@ footer{
     height: 90px;
     background-color: #282828;
 }
+
+.footer_left{
+    width: 230px;
+    position: relative;
+}
+
+.footer_left img{
+    width: 50px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
