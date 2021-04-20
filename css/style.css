@@ -135,10 +135,11 @@ main{
 }
 
 .btn_alti{
-     display: flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .btn_alti a{
@@ -234,4 +235,23 @@ footer{
     padding: 10px 2px;
     margin-left: 15px;
     color: white;
+}
+
+@media screen and (max-widht: 767px) {
+    .nav{
+        width: 50px;
+    }
+
+    .content{
+        width: calc(100% - 50px);
+    }
+
+    .call-to-action{
+        width: calc(100% - 50px);
+    }
+
+    .footer_left,
+    .footer_right{
+        width: 29%;
+    }
 }
