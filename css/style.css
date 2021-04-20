@@ -91,18 +91,20 @@ nav h4{
 main{
     background-color: #141922;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height: calc(100% - 90px);
     overflow-y: auto;   
 }
 
 .content{
-    width: calc(100 - 230px);
+    width: calc(100% - 230px);
     height: 100%;
+    overflow-y: auto;
+    display: flex;
 }
 
 .btn_alti{
-    display: flex;
+     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -136,9 +138,13 @@ main h4{
 
 .albums{
     display: flex;
+}
+
+.albums{
+    display: flex;
     flex-direction: row;
     display: inline-block;
-    width: 200px;
+    width: 180px;
     text-align: center;
     vertical-align: middle;
 }
