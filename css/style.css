@@ -56,13 +56,13 @@ nav{
     top: 0;
     right: 0;
     width: calc(100% - 230px);
-    height: 80px;
+    height: 65px;
     background-color: rgba(0, 0, 0, 0.4);
 }
 
 .call-to-action a{
     position: relative;
-    top: 30px;
+    top: 10px;
     left: 800px;
     text-decoration: none;
     text-transform: uppercase;
@@ -71,6 +71,7 @@ nav{
     background-color: transparent;
     padding: 10px 5px;
     border-radius: 20px;
+    display: inline-block;
 }
 
 #logo{
@@ -319,6 +320,10 @@ a:hover{
 
 .album img:hover{
     opacity: 0.5;
+}
+
+.call-to-action a:hover{
+    transform: scale(1.1);
 }
 
 @media screen and (max-widht: 767px) {
