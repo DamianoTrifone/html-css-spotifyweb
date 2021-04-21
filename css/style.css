@@ -207,7 +207,6 @@ footer{
     width: 230px;
     display: flex;
     align-items: center;
-    background-color: orange;
 }
 
 .footer_left img{
@@ -242,11 +241,9 @@ footer{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: orange;
 }
 
 .footer_right{
-    background-color: orange;
     width: 230px;
 }
 
@@ -259,14 +256,20 @@ margin-bottom: 20px;
 list-style: none;
 }
 
+ .buttons_list i{
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
 .btn_footer{
     text-decoration: none;
 }
 .btn_player{
     vertical-align: middle;
-    margin-top: 15px;
+    margin-top: 8px;
     font-size: 20px;
-    padding: 10px 2px;
+    padding: 4px 2px;
     margin-left: 15px;
 }
 
