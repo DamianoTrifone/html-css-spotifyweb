@@ -8,7 +8,7 @@
 .wrapper{
     height: 100vh;
     width: 100%;
-    overflow: auto;
+    overflow: hidden;
 }
 
 nav{
@@ -113,6 +113,7 @@ nav h4{
 .navbar_bassa{
     margin-top: 90px;
     border-bottom: 1px solid white;
+    margin-bottom: 26px;
 }
 
 .profile img{
@@ -192,6 +193,7 @@ main h4{
     width: 180px;
     text-align: center;
     vertical-align: middle;
+    margin-bottom: 100px;
 }
 
 .foto_tonda{
@@ -203,6 +205,9 @@ footer{
     background-color: #282828;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer_left{
