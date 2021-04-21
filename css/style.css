@@ -313,6 +313,10 @@ a:focus{
     border-bottom: 2px solid yellowgreen;
 }
 
+a:hover{
+    color: white;
+}
+
 .album img:hover{
     opacity: 0.5;
 }
