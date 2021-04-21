@@ -235,6 +235,22 @@ footer{
 } */
 
 
+#timeline{
+    width: 30px;
+    height: 3px;
+    color: white;
+}
+.progress-bar {
+    background-color:lightslategray;
+    height: 2px;
+    width: 100%;
+    margin-top: 8px;
+    margin-left: 6px;
+    margin-right: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer_center{
     width: 40%;
     display: flex;
@@ -271,6 +287,11 @@ list-style: none;
     font-size: 20px;
     padding: 4px 2px;
     margin-left: 15px;
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (max-widht: 767px) {
