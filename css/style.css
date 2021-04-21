@@ -309,6 +309,10 @@ list-style: none;
     justify-content: space-between;
 }
 
+a:focus{
+    border-bottom: 2px solid yellowgreen;
+}
+
 @media screen and (max-widht: 767px) {
     .nav{
         width: 60px;
