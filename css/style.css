@@ -261,6 +261,13 @@ footer{
 
 .footer_right{
     width: 230px;
+    display: flex;
+    align-items: center;
+}
+
+.footer_right i{
+    color: white;
+    margin-left: 10px;
 }
 
 .buttons_list{
