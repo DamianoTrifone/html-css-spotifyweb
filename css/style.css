@@ -8,6 +8,7 @@
 .wrapper{
     height: 100vh;
     width: 100%;
+    overflow: auto;
 }
 
 nav{
@@ -343,5 +344,23 @@ a:hover{
     .footer_left,
     .footer_right{
         width: 29%;
+    }
+}
+
+@media screen and (max-width: 552px){
+    nav {
+        width: 60px;
+    }
+
+    nav span{
+        display: none;
+    }
+
+    nav h2{
+        display: none;
+    }
+
+    nav h4{
+        display: none;
     }
 }
