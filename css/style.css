@@ -313,6 +313,10 @@ a:focus{
     border-bottom: 2px solid yellowgreen;
 }
 
+.album img:hover{
+    opacity: 0.5;
+}
+
 @media screen and (max-widht: 767px) {
     .nav{
         width: 60px;
