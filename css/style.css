@@ -62,15 +62,15 @@ nav{
 
 .call-to-action a{
     position: relative;
-    top: 40px;
+    top: 30px;
     left: 800px;
     text-decoration: none;
     text-transform: uppercase;
     border: 1px solid white;
     color: white;
     background-color: transparent;
-    padding: 15px 10px;
-    border-radius: 10px;
+    padding: 10px 5px;
+    border-radius: 20px;
 }
 
 #logo{
