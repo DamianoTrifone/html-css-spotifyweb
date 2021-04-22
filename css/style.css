@@ -256,6 +256,22 @@ footer{
     margin-right: 6px;
     display: flex;
     justify-content: space-between;
+    position: relative;
+}
+
+.cursor_time{
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    position:absolute;
+    top: -7px;
+    right: 95px;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.cursor_time:hover{
+    opacity: 1;
 }
 
 .progress-bar_volume{
